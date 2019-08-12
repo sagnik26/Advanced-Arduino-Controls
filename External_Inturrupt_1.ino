@@ -1,6 +1,5 @@
 const uint8_t btn=2;
 const uint8_t led=5;
-uint8_t led_state=LOW;
 
 void setup() {
   // put your setup code here, to run once:
