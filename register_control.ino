@@ -1,8 +1,8 @@
-const int btn=2;
-const int led=5;
+const int btn=2; //digital pin 2 of arduino connected with a tactile push button button 
+const int led=5; //digital pin 5 of arduino connected to a led with a 470 ohm resistor
 void setup() {
   // put your setup code here, to run once:
-DDRD = B00100000;
+DDRD = B00100000; 
 PORTD = B00000100;
 }
 
